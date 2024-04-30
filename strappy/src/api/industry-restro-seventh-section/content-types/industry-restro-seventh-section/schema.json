@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_restro_seventh_sections",
+  "info": {
+    "singularName": "industry-restro-seventh-section",
+    "pluralName": "industry-restro-seventh-sections",
+    "displayName": "IndustryRestroSeventhSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtile": {
+      "type": "text",
+      "required": true
+    },
+    "products": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

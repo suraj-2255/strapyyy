@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "web_section_fourths",
+  "info": {
+    "singularName": "web-section-fourth",
+    "pluralName": "web-section-fourths",
+    "displayName": "webSectionFourth",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "point": {
+      "type": "json"
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

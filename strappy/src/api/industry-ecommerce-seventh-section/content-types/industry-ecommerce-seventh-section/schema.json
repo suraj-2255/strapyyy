@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_ecommerce_seventh_sections",
+  "info": {
+    "singularName": "industry-ecommerce-seventh-section",
+    "pluralName": "industry-ecommerce-seventh-sections",
+    "displayName": "IndustryEcommerceSeventhSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtile": {
+      "type": "text",
+      "required": true
+    },
+    "products": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

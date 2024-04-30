@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "siteinformations",
+  "info": {
+    "singularName": "siteinformation",
+    "pluralName": "siteinformations",
+    "displayName": "siteinformation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "projextTitle": {
+      "type": "string"
+    },
+    "projectDesc": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_ecommerce_five_sections",
+  "info": {
+    "singularName": "industry-ecommerce-five-section",
+    "pluralName": "industry-ecommerce-five-sections",
+    "displayName": "IndustryEcommerceFiveSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

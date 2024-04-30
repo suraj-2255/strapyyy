@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_health_care_sixth_sections",
+  "info": {
+    "singularName": "industry-health-care-sixth-section",
+    "pluralName": "industry-health-care-sixth-sections",
+    "displayName": "IndustryHealthCareSixthSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

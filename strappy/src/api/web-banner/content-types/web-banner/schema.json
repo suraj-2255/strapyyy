@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "web_banners",
+  "info": {
+    "singularName": "web-banner",
+    "pluralName": "web-banners",
+    "displayName": "webBanner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "para": {
+      "type": "text",
+      "required": true
+    },
+    "ImageSrc": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "btnText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

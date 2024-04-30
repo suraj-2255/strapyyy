@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_page_second_product_lists",
+  "info": {
+    "singularName": "product-page-second-product-list",
+    "pluralName": "product-page-second-product-lists",
+    "displayName": "ProductPageSecondProductList",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imageSrc": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "altText": {
+      "type": "text",
+      "required": true
+    },
+    "bookImageSrc": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "productName": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "type": {
+      "type": "text"
+    }
+  }
+}

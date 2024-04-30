@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mobile_development_section_fours",
+  "info": {
+    "singularName": "mobile-development-section-four",
+    "pluralName": "mobile-development-section-fours",
+    "displayName": "mobileDevelopmentSectionFour",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "mobileImage": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "point": {
+      "type": "json",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

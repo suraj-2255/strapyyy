@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industy_politics_first_sections",
+  "info": {
+    "singularName": "industy-politics-first-section",
+    "pluralName": "industy-politics-first-sections",
+    "displayName": "IndustyPoliticsFirstSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "para": {
+      "type": "text",
+      "required": true
+    },
+    "ImageSrc": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

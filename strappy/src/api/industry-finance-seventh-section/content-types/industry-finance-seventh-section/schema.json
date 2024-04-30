@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_finance_seventh_sections",
+  "info": {
+    "singularName": "industry-finance-seventh-section",
+    "pluralName": "industry-finance-seventh-sections",
+    "displayName": "IndustryFinanceSeventhSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtile": {
+      "type": "text",
+      "required": true
+    },
+    "products": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

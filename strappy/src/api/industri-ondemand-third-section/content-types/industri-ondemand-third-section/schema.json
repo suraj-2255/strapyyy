@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industri_ondemand_third_sections",
+  "info": {
+    "singularName": "industri-ondemand-third-section",
+    "pluralName": "industri-ondemand-third-sections",
+    "displayName": "IndustriOndemandThirdSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "cardList": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

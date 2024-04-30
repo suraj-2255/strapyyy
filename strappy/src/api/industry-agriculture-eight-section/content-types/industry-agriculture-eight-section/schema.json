@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_agriculture_eight_sections",
+  "info": {
+    "singularName": "industry-agriculture-eight-section",
+    "pluralName": "industry-agriculture-eight-sections",
+    "displayName": "IndustryAgricultureEightSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "products": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

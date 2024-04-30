@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_saas_third_sections",
+  "info": {
+    "singularName": "industry-saas-third-section",
+    "pluralName": "industry-saas-third-sections",
+    "displayName": "IndustrySaasThirdSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "cardList": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "solution_tabs",
+  "info": {
+    "singularName": "solution-tab",
+    "pluralName": "solution-tabs",
+    "displayName": "solutionTab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "heading": {
+      "type": "text",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    },
+    "points": {
+      "type": "json",
+      "required": true
+    },
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

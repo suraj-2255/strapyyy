@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_agriculture_third_sections",
+  "info": {
+    "singularName": "industry-agriculture-third-section",
+    "pluralName": "industry-agriculture-third-sections",
+    "displayName": "IndustryAgricultureThirdSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "cardList": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

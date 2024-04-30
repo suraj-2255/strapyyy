@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_finance_second_sections",
+  "info": {
+    "singularName": "industry-finance-second-section",
+    "pluralName": "industry-finance-second-sections",
+    "displayName": "IndustryFinanceSecondSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "listData": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

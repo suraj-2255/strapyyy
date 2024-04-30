@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_travel_eight_sections",
+  "info": {
+    "singularName": "industry-travel-eight-section",
+    "pluralName": "industry-travel-eight-sections",
+    "displayName": "IndustryTravelEightSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "products": {
+      "type": "json",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "title": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

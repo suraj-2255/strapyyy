@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industri_on_demand_seventh_sections",
+  "info": {
+    "singularName": "industri-on-demand-seventh-section",
+    "pluralName": "industri-on-demand-seventh-sections",
+    "displayName": "IndustriOnDemandSeventhSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtile": {
+      "type": "text",
+      "required": true
+    },
+    "products": {
+      "type": "json"
+    }
+  }
+}

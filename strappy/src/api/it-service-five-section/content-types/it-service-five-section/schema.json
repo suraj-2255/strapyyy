@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "it_service_five_sections",
+  "info": {
+    "singularName": "it-service-five-section",
+    "pluralName": "it-service-five-sections",
+    "displayName": "ItServiceFiveSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "point": {
+      "type": "json",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

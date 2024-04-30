@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_agriculture_second_sections",
+  "info": {
+    "singularName": "industry-agriculture-second-section",
+    "pluralName": "industry-agriculture-second-sections",
+    "displayName": "IndustryAgricultureSecondSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "listData": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

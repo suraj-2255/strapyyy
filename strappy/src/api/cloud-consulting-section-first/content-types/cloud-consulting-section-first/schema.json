@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cloud_consulting_section_firsts",
+  "info": {
+    "singularName": "cloud-consulting-section-first",
+    "pluralName": "cloud-consulting-section-firsts",
+    "displayName": "CloudConsultingSectionFirst",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mobileTitle1": {
+      "type": "text",
+      "required": true
+    },
+    "mobile1imgSrc": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "mobile2imgSrc": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "listFirst": {
+      "type": "json",
+      "required": true
+    },
+    "listSecong": {
+      "type": "json",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true
+    },
+    "mobileTitle2": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_restro_third_sections",
+  "info": {
+    "singularName": "industry-restro-third-section",
+    "pluralName": "industry-restro-third-sections",
+    "displayName": "IndustryRestroThirdSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "cardList": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

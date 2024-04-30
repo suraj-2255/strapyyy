@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_on_demand_eighth_sections",
+  "info": {
+    "singularName": "industry-on-demand-eighth-section",
+    "pluralName": "industry-on-demand-eighth-sections",
+    "displayName": "IndustryOnDemandEighthSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "products": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

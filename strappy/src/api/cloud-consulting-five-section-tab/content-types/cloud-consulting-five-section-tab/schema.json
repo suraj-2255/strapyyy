@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cloud_consulting_five_section_tabs",
+  "info": {
+    "singularName": "cloud-consulting-five-section-tab",
+    "pluralName": "cloud-consulting-five-section-tabs",
+    "displayName": "CloudConsultingFiveSectionTab"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "listData": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

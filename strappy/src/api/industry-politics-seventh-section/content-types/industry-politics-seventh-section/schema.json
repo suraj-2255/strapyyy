@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_politics_seventh_sections",
+  "info": {
+    "singularName": "industry-politics-seventh-section",
+    "pluralName": "industry-politics-seventh-sections",
+    "displayName": "IndustryPoliticsSeventhSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "products": {
+      "type": "json",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

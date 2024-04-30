@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_saas_fourth_sections",
+  "info": {
+    "singularName": "industry-saas-fourth-section",
+    "pluralName": "industry-saas-fourth-sections",
+    "displayName": "IndustrySaasFourthSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

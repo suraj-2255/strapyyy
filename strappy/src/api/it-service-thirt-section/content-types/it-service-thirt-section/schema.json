@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "it_service_thirt_sections",
+  "info": {
+    "singularName": "it-service-thirt-section",
+    "pluralName": "it-service-thirt-sections",
+    "displayName": "ItServiceThirtSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

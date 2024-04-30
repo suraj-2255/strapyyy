@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industy_ondemand_fourth_sections",
+  "info": {
+    "singularName": "industy-ondemand-fourth-section",
+    "pluralName": "industy-ondemand-fourth-sections",
+    "displayName": "IndustyOndemandFourthSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

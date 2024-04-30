@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mobile_developments",
+  "info": {
+    "singularName": "mobile-development",
+    "pluralName": "mobile-developments",
+    "displayName": "mobileDevelopment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mobileTitle1": {
+      "type": "text",
+      "required": true
+    },
+    "mobile1imgSrc": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "mobileTitle2": {
+      "type": "text",
+      "required": true
+    },
+    "mobile2imgSrc": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "listFirst": {
+      "type": "json",
+      "required": true
+    },
+    "listSecong": {
+      "type": "json",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

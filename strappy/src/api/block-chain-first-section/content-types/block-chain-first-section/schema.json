@@ -1,0 +1,74 @@
+{
+  "kind": "collectionType",
+  "collectionName": "block_chain_first_sections",
+  "info": {
+    "singularName": "block-chain-first-section",
+    "pluralName": "block-chain-first-sections",
+    "displayName": "BlockChainFirstSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageHeading": {
+      "type": "string",
+      "required": true
+    },
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "subTitleList": {
+      "type": "json",
+      "required": true
+    },
+    "imageSrc": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "titleSecond": {
+      "type": "text",
+      "required": true
+    },
+    "contentSecond": {
+      "type": "text",
+      "required": true
+    },
+    "imageSerSecond": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "contentListFirst": {
+      "type": "json",
+      "required": true
+    },
+    "shortDesc": {
+      "type": "text",
+      "required": true
+    },
+    "contentListSecond": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

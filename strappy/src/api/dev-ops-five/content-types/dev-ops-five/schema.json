@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dev_ops_fives",
+  "info": {
+    "singularName": "dev-ops-five",
+    "pluralName": "dev-ops-fives",
+    "displayName": "DevOpsFive",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "listData": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

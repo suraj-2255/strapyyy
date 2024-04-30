@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ui_ux_five_sections",
+  "info": {
+    "singularName": "ui-ux-five-section",
+    "pluralName": "ui-ux-five-sections",
+    "displayName": "UiUXFiveSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "listData": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_ecommerce_second_sections",
+  "info": {
+    "singularName": "industry-ecommerce-second-section",
+    "pluralName": "industry-ecommerce-second-sections",
+    "displayName": "IndustryEcommerceSecondSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "listData": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "block_chain_section_fourths",
+  "info": {
+    "singularName": "block-chain-section-fourth",
+    "pluralName": "block-chain-section-fourths",
+    "displayName": "BlockChainSectionFourth"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "imageSrc": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "points": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

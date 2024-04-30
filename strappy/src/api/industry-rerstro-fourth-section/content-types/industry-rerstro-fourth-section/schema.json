@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_rerstro_fourth_sections",
+  "info": {
+    "singularName": "industry-rerstro-fourth-section",
+    "pluralName": "industry-rerstro-fourth-sections",
+    "displayName": "IndustryRerstroFourthSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_serv_imp_links",
+  "info": {
+    "singularName": "footer-serv-imp-link",
+    "pluralName": "footer-serv-imp-links",
+    "displayName": "footerServImpLink"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "href": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

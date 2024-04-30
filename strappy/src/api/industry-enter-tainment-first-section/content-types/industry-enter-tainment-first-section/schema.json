@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_enter_tainment_first_sections",
+  "info": {
+    "singularName": "industry-enter-tainment-first-section",
+    "pluralName": "industry-enter-tainment-first-sections",
+    "displayName": "IndustryEnterTainmentFirstSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "para": {
+      "type": "text",
+      "required": true
+    },
+    "ImageSrc": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "btnText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

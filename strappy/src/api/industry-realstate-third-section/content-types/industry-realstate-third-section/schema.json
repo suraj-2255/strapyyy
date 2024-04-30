@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_realstate_third_sections",
+  "info": {
+    "singularName": "industry-realstate-third-section",
+    "pluralName": "industry-realstate-third-sections",
+    "displayName": "IndustryRealstateThirdSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "cardList": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

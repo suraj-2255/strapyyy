@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dev_ops_banners",
+  "info": {
+    "singularName": "dev-ops-banner",
+    "pluralName": "dev-ops-banners",
+    "displayName": "DevOpsBanner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "para": {
+      "type": "text",
+      "required": true
+    },
+    "imageSrc": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "btnText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

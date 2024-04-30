@@ -1,0 +1,118 @@
+{
+  "kind": "collectionType",
+  "collectionName": "myblogs",
+  "info": {
+    "singularName": "myblog",
+    "pluralName": "myblogs",
+    "displayName": "myblog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "text",
+      "required": true
+    },
+    "Content": {
+      "type": "text"
+    },
+    "quotes": {
+      "type": "text",
+      "required": true
+    },
+    "Benifit": {
+      "type": "text"
+    },
+    "Challengs": {
+      "type": "text"
+    },
+    "Conclusion": {
+      "type": "text"
+    },
+    "uploadImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "postedBy": {
+      "type": "string",
+      "required": true
+    },
+    "postedOn": {
+      "type": "string"
+    },
+    "uploadimage2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "uploadImage3": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "subContetnt": {
+      "type": "text"
+    },
+    "subTitle2": {
+      "type": "text"
+    },
+    "subtitle2Content": {
+      "type": "text"
+    },
+    "subTitle3": {
+      "type": "text"
+    },
+    "subtitle3Content3": {
+      "type": "text"
+    },
+    "subtitle4": {
+      "type": "text"
+    },
+    "subtitle4Content4": {
+      "type": "text"
+    },
+    "subtitle5": {
+      "type": "text"
+    },
+    "subtitle5Content5": {
+      "type": "string"
+    },
+    "subtitle6": {
+      "type": "text"
+    },
+    "subtitle6Content6": {
+      "type": "text"
+    },
+    "subtitle7": {
+      "type": "text"
+    },
+    "subtitle7Content7": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "indusry_education_first_sections",
+  "info": {
+    "singularName": "indusry-education-first-section",
+    "pluralName": "indusry-education-first-sections",
+    "displayName": "IndusryEducationFirstSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "para": {
+      "type": "text",
+      "required": true
+    },
+    "ImageSrc": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "btnText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

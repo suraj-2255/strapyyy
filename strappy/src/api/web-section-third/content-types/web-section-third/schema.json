@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "web_section_thirds",
+  "info": {
+    "singularName": "web-section-third",
+    "pluralName": "web-section-thirds",
+    "displayName": "webSectionThird",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

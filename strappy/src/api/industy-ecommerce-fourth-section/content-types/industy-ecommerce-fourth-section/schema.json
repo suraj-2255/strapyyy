@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industy_ecommerce_fourth_sections",
+  "info": {
+    "singularName": "industy-ecommerce-fourth-section",
+    "pluralName": "industy-ecommerce-fourth-sections",
+    "displayName": "IndustyEcommerceFourthSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

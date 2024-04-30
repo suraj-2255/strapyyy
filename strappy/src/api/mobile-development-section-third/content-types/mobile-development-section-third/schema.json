@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mobile_development_section_thirds",
+  "info": {
+    "singularName": "mobile-development-section-third",
+    "pluralName": "mobile-development-section-thirds",
+    "displayName": "mobileDevelopmentSectionThird",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "json"
+    }
+  }
+}

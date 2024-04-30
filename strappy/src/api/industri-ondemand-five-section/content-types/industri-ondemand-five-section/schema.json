@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industri_ondemand_five_sections",
+  "info": {
+    "singularName": "industri-ondemand-five-section",
+    "pluralName": "industri-ondemand-five-sections",
+    "displayName": "IndustriOndemandFiveSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "json"
+    }
+  }
+}

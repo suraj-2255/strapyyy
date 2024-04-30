@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_chain_third_sections",
+  "info": {
+    "singularName": "blog-chain-third-section",
+    "pluralName": "blog-chain-third-sections",
+    "displayName": "BlogChainThirdSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "listData": {
+      "type": "json"
+    }
+  }
+}

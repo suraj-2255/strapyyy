@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industri_health_care_twos",
+  "info": {
+    "singularName": "industri-health-care-two",
+    "pluralName": "industri-health-care-twos",
+    "displayName": "IndustriHealthCareTwo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "listData": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

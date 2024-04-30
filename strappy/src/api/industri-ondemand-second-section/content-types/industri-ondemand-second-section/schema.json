@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industri_ondemand_second_sections",
+  "info": {
+    "singularName": "industri-ondemand-second-section",
+    "pluralName": "industri-ondemand-second-sections",
+    "displayName": "IndustriOndemandSecondSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "listData": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_health_care_first_sections",
+  "info": {
+    "singularName": "industry-health-care-first-section",
+    "pluralName": "industry-health-care-first-sections",
+    "displayName": "IndustryHealthCareFirstSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "para": {
+      "type": "text",
+      "required": true
+    },
+    "ImageSrc": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "btnText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

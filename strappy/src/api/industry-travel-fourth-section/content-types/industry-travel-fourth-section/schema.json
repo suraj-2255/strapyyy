@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_travel_fourth_sections",
+  "info": {
+    "singularName": "industry-travel-fourth-section",
+    "pluralName": "industry-travel-fourth-sections",
+    "displayName": "IndustryTravelFourthSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "json"
+    }
+  }
+}

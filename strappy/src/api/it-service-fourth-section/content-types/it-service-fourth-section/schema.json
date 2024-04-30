@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "it_service_fourth_sections",
+  "info": {
+    "singularName": "it-service-fourth-section",
+    "pluralName": "it-service-fourth-sections",
+    "displayName": "ItServiceFourthSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "listData": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

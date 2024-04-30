@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_event_second_sections",
+  "info": {
+    "singularName": "industry-event-second-section",
+    "pluralName": "industry-event-second-sections",
+    "displayName": "IndustryEventSecondSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "listData": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

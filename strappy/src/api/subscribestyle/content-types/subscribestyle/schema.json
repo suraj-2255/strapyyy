@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscribestyles",
+  "info": {
+    "singularName": "subscribestyle",
+    "pluralName": "subscribestyles",
+    "displayName": "subscribestyle"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subsImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "subsTitle": {
+      "type": "text",
+      "required": true
+    },
+    "subsText": {
+      "type": "text",
+      "required": true
+    },
+    "subsIfram": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

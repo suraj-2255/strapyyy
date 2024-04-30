@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industri_health_care_fours",
+  "info": {
+    "singularName": "industri-health-care-four",
+    "pluralName": "industri-health-care-fours",
+    "displayName": "IndustriHealthCareFour"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "content": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "json"
+    }
+  }
+}

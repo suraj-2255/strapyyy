@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_us_secod_sections",
+  "info": {
+    "singularName": "about-us-secod-section",
+    "pluralName": "about-us-secod-sections",
+    "displayName": "AboutUSSecodSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aimHeading": {
+      "type": "text",
+      "required": true
+    },
+    "aimList": {
+      "type": "json",
+      "required": false
+    },
+    "teamHeading": {
+      "type": "text",
+      "required": true
+    },
+    "teamList": {
+      "type": "json",
+      "required": true
+    },
+    "imageSrc1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "imageSrc2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "imageSrc3": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

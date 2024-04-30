@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industri_health_care_threes",
+  "info": {
+    "singularName": "industri-health-care-three",
+    "pluralName": "industri-health-care-threes",
+    "displayName": "IndustriHealthCareThree"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "cardList": {
+      "type": "json"
+    }
+  }
+}

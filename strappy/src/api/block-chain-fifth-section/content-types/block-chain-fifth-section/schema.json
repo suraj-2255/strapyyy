@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "block_chain_fifth_sections",
+  "info": {
+    "singularName": "block-chain-fifth-section",
+    "pluralName": "block-chain-fifth-sections",
+    "displayName": "BlockChainFifthSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "json"
+    }
+  }
+}

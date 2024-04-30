@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dev_ops_page_second_sections",
+  "info": {
+    "singularName": "dev-ops-page-second-section",
+    "pluralName": "dev-ops-page-second-sections",
+    "displayName": "devOpsPageSecondSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titleHead": {
+      "type": "text",
+      "required": true
+    },
+    "cardList": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industri_health_care_sevenths",
+  "info": {
+    "singularName": "industri-health-care-seventh",
+    "pluralName": "industri-health-care-sevenths",
+    "displayName": "IndustriHealthCareSeventh",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtile": {
+      "type": "text",
+      "required": true
+    },
+    "products": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

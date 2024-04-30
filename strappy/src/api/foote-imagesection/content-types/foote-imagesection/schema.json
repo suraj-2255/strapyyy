@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "foote_imagesections",
+  "info": {
+    "singularName": "foote-imagesection",
+    "pluralName": "foote-imagesections",
+    "displayName": "footeImagesection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true
+    },
+    "imageSrc": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "clutchWidget": {
+      "type": "blocks"
+    },
+    "trustpilotWidget": {
+      "type": "blocks"
+    }
+  }
+}

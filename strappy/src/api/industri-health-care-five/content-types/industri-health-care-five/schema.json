@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industri_health_care_fives",
+  "info": {
+    "singularName": "industri-health-care-five",
+    "pluralName": "industri-health-care-fives",
+    "displayName": "IndustriHealthCareFive"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

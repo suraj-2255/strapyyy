@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "devops_page_first_sections",
+  "info": {
+    "singularName": "devops-page-first-section",
+    "pluralName": "devops-page-first-sections",
+    "displayName": "DevopsPageFirstSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "SubTitle": {
+      "type": "text",
+      "required": true
+    },
+    "subtitleList": {
+      "type": "json",
+      "required": true
+    },
+    "imgSrc1": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imgSrc2": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "firstOverview": {
+      "type": "json",
+      "required": true
+    },
+    "list": {
+      "type": "json",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "overViewText": {
+      "type": "text",
+      "required": true
+    },
+    "shortDescription": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

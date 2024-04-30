@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_enter_tainment_third_sections",
+  "info": {
+    "singularName": "industry-enter-tainment-third-section",
+    "pluralName": "industry-enter-tainment-third-sections",
+    "displayName": "IndustryEnterTainmentThirdSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "cardList": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mobile_section_firsts",
+  "info": {
+    "singularName": "mobile-section-first",
+    "pluralName": "mobile-section-firsts",
+    "displayName": "MobileSectionFirst",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "mCard": {
+      "type": "json"
+    },
+    "mServiceTitle": {
+      "type": "text",
+      "required": true
+    },
+    "mServiceContent": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

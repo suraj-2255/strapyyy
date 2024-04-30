@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_restro_first_sections",
+  "info": {
+    "singularName": "industry-restro-first-section",
+    "pluralName": "industry-restro-first-sections",
+    "displayName": "IndustryRestroFirstSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "para": {
+      "type": "text",
+      "required": true
+    },
+    "ImageSrc": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "btnText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

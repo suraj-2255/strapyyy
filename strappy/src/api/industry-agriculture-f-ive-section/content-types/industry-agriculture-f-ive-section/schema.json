@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_agriculture_f_ive_sections",
+  "info": {
+    "singularName": "industry-agriculture-f-ive-section",
+    "pluralName": "industry-agriculture-f-ive-sections",
+    "displayName": "IndustryAgricultureFIveSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

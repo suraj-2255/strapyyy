@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "about_us_get_started_pages",
+  "info": {
+    "singularName": "about-us-get-started-page",
+    "pluralName": "about-us-get-started-pages",
+    "displayName": "AboutUsGetStartedPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "aboutTitle": {
+      "type": "text",
+      "required": true
+    },
+    "aboutContent": {
+      "type": "text",
+      "required": true
+    },
+    "aboutList": {
+      "type": "json",
+      "required": true
+    },
+    "projectHeading": {
+      "type": "text",
+      "required": true
+    },
+    "projectTitle": {
+      "type": "text",
+      "required": true
+    },
+    "projectContent": {
+      "type": "text",
+      "required": true
+    },
+    "projectButtonHeading": {
+      "type": "text",
+      "required": true
+    },
+    "projectButtonLink": {
+      "type": "text",
+      "required": true
+    },
+    "contactButtonHeading": {
+      "type": "text",
+      "required": true
+    },
+    "contactButtonLink": {
+      "type": "text",
+      "required": true
+    },
+    "imageSrc1": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "imageSrc2": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

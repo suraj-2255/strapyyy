@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industri_ondemand_eight_sections",
+  "info": {
+    "singularName": "industri-ondemand-eight-section",
+    "pluralName": "industri-ondemand-eight-sections",
+    "displayName": "IndustriOndemandEightSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "projectName": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "technlogyUesd": {
+      "type": "text",
+      "required": true
+    },
+    "projectImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "pateLinkHere": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

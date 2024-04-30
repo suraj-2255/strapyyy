@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ui_ux_second_sections",
+  "info": {
+    "singularName": "ui-ux-second-section",
+    "pluralName": "ui-ux-second-sections",
+    "displayName": "UiUxSecondSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "serviceTitle": {
+      "type": "text",
+      "required": true
+    },
+    "serviceContent": {
+      "type": "text",
+      "required": true
+    },
+    "cardData": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

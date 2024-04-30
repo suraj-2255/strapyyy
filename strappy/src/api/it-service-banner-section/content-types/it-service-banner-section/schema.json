@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "it_service_banner_sections",
+  "info": {
+    "singularName": "it-service-banner-section",
+    "pluralName": "it-service-banner-sections",
+    "displayName": "ItServiceBannerSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "para": {
+      "type": "text",
+      "required": true
+    },
+    "imageSrc": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "btnText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

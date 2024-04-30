@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_enter_tainment_five_sections",
+  "info": {
+    "singularName": "industry-enter-tainment-five-section",
+    "pluralName": "industry-enter-tainment-five-sections",
+    "displayName": "IndustryEnterTainmentFiveSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "list": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

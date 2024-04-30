@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "indstry_finance_eight_sections",
+  "info": {
+    "singularName": "indstry-finance-eight-section",
+    "pluralName": "indstry-finance-eight-sections",
+    "displayName": "IndstryFinanceEightSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "products": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

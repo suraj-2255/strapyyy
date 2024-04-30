@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_enter_tainment_second_sections",
+  "info": {
+    "singularName": "industry-enter-tainment-second-section",
+    "pluralName": "industry-enter-tainment-second-sections",
+    "displayName": "IndustryEnterTainmentSecondSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "listData": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

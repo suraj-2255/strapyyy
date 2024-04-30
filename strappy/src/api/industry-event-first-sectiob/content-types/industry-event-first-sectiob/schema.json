@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_event_first_sectiobs",
+  "info": {
+    "singularName": "industry-event-first-sectiob",
+    "pluralName": "industry-event-first-sectiobs",
+    "displayName": "IndustryEventFirstSectiob",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "para": {
+      "type": "text",
+      "required": true
+    },
+    "imageSrc": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "btnText": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

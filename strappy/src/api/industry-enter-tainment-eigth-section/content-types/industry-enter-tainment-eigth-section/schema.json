@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_enter_tainment_eigth_sections",
+  "info": {
+    "singularName": "industry-enter-tainment-eigth-section",
+    "pluralName": "industry-enter-tainment-eigth-sections",
+    "displayName": "IndustryEnterTainmentEigthSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "products": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

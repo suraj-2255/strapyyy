@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_education_seventh_sections",
+  "info": {
+    "singularName": "industry-education-seventh-section",
+    "pluralName": "industry-education-seventh-sections",
+    "displayName": "IndustryEducationSeventhSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtile": {
+      "type": "text"
+    },
+    "products": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

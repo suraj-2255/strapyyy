@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_ecommerce_thrid_sections",
+  "info": {
+    "singularName": "industry-ecommerce-thrid-section",
+    "pluralName": "industry-ecommerce-thrid-sections",
+    "displayName": "IndustryEcommerceThridSection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "cardList": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

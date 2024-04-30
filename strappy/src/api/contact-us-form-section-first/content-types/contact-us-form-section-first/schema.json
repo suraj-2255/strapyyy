@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_us_form_section_firsts",
+  "info": {
+    "singularName": "contact-us-form-section-first",
+    "pluralName": "contact-us-form-section-firsts",
+    "displayName": "ContactUsFormSectionFirst"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subtitle": {
+      "type": "text",
+      "required": true
+    },
+    "whatsappNumber": {
+      "type": "text",
+      "required": true
+    },
+    "phoneNumber": {
+      "type": "text",
+      "required": true
+    },
+    "iframeSrc": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

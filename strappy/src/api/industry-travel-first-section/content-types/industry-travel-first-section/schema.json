@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "industry_travel_first_sections",
+  "info": {
+    "singularName": "industry-travel-first-section",
+    "pluralName": "industry-travel-first-sections",
+    "displayName": "IndustryTravelFirstSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "text",
+      "required": true
+    },
+    "para": {
+      "type": "text",
+      "required": true
+    },
+    "ImageSrc": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "btnText": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
